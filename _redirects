@@ -1,6 +1,40 @@
-/home /  301
-/index /  301
-/services /pavers/  301
-/concrete-pavers /pavers/  301
-/estimate /contact/  301
-/quote /contact/  301
+# ── OLD SITE PAGES → NEW SITE (301 permanent) ──────────────────────────────
+/pavers/patios              /pavers/                    301
+/pavers/patios/             /pavers/                    301
+/concrete/driveways         /concrete/                  301
+/concrete/driveways/        /concrete/                  301
+/services/stamped-concrete  /concrete/                  301
+/services/stamped-concrete/ /concrete/                  301
+/services/                  /pavers/                    301
+/services                   /pavers/                    301
+/pavers/pool-decks          /pavers/                    301
+/pavers/pool-decks/         /pavers/                    301
+/pavers/walkways            /pavers/                    301
+/pavers/walkways/           /pavers/                    301
+/pavers/driveways           /pavers/                    301
+/pavers/driveways/          /pavers/                    301
+/concrete/patios            /concrete/                  301
+/concrete/patios/           /concrete/                  301
+/epoxy/                     /concrete/                  301
+/epoxy                      /concrete/                  301
+/gallery/                   /about/                     301
+/gallery                    /about/                     301
+/reviews/                   /about/                     301
+/reviews                    /about/                     301
+/areas/                     /pavers/                    301
+/areas                      /pavers/                    301
+/free-estimate              /contact/                   301
+/free-estimate/             /contact/                   301
+/estimate/                  /contact/                   301
+/estimate                   /contact/                   301
+/quote/                     /contact/                   301
+/quote                      /contact/                   301
+/get-a-quote/               /contact/                   301
+/get-a-quote                /contact/                   301
+
+# ── COMMON SHORTCUTS ───────────────────────────────────────────────────────
+/home                       /                           301
+/index                      /                           301
+/index.html                 /                           301
+/pavers/index.html          /pavers/                    301
+/concrete/index.html        /concrete/                  301
