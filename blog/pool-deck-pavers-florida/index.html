@@ -145,6 +145,36 @@ table.pt tbody tr:last-child td{border-bottom:none}
 .related-card .rt{font-family:var(--font-head);font-size:.7rem;font-weight:700;text-transform:uppercase;color:var(--orange);margin-bottom:.4rem}
 .related-card h4{font-family:var(--font-head);font-size:.92rem;font-weight:700;line-height:1.35}
 .post-tag{display:inline-block;font-family:var(--font-head);font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--orange);background:var(--orange-light);padding:.25rem .75rem;border-radius:20px;margin-bottom:.85rem}
+
+.site-header{position:sticky;top:0;z-index:1000;background:#fff;border-bottom:2px solid var(--gray-border);box-shadow:0 2px 12px rgba(0,0,0,.08)}
+.header-inner{max-width:1280px;margin:0 auto;padding:0 1.5rem;display:flex;align-items:center;justify-content:space-between;height:70px;gap:1rem}
+.logo img{height:44px;width:auto;max-width:200px;display:block}
+.nav-links{display:flex;align-items:center;gap:1.25rem;list-style:none;margin:0;padding:0}
+.nav-links>li>a{font-family:var(--font-head);font-weight:600;font-size:.87rem;color:var(--text);transition:color .2s;white-space:nowrap;padding:.25rem 0}
+.nav-links>li>a:hover{color:var(--orange)}
+.nav-dropdown{position:relative}
+.nav-dropdown>a::after{content:'\25BE';margin-left:3px;font-size:.65rem;vertical-align:middle}
+.dropdown-menu{position:absolute;top:calc(100% + 4px);left:0;background:#fff;border:1.5px solid var(--gray-border);border-radius:12px;padding:.5rem 0;box-shadow:0 10px 40px rgba(0,0,0,.14);opacity:0;pointer-events:none;transform:translateY(-6px);transition:all .2s;z-index:200;min-width:200px}
+.nav-dropdown:hover .dropdown-menu{opacity:1;pointer-events:all;transform:translateY(0)}
+.dropdown-menu.two-col{display:none;grid-template-columns:1fr 1fr;min-width:420px;gap:0}
+.nav-dropdown:hover .dropdown-menu.two-col{display:grid}
+.dropdown-menu .col{padding:.25rem 0}
+.dropdown-menu .col-label{font-family:var(--font-head);font-size:.67rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--gray);padding:.4rem 1.1rem .2rem;display:block}
+.dropdown-menu a{display:block;padding:.48rem 1.1rem;font-size:.84rem;font-family:var(--font-head);font-weight:500;color:var(--text);transition:background .15s,color .15s;white-space:nowrap}
+.dropdown-menu a:hover{background:var(--orange-light);color:var(--orange)}
+.dropdown-menu .divider{border:none;border-top:1px solid var(--gray-border);margin:.3rem 0}
+.btn-call{display:inline-flex;align-items:center;gap:.4rem;background:var(--orange);color:#fff;padding:.55rem 1.25rem;border-radius:8px;font-family:var(--font-head);font-weight:700;font-size:.9rem;white-space:nowrap;transition:background .2s}
+.btn-call:hover{background:#B04A10}
+.hamburger{display:none;background:none;border:1.5px solid var(--gray-border);border-radius:6px;padding:.4rem .55rem;cursor:pointer;flex-direction:column;gap:4px}
+.hamburger span{display:block;width:20px;height:2px;background:var(--text);border-radius:2px;transition:all .3s}
+.mobile-nav{display:none;position:fixed;top:70px;left:0;right:0;bottom:0;background:#fff;overflow-y:auto;z-index:998;padding:1rem 1.5rem 3rem;border-top:2px solid var(--gray-border)}
+.mobile-nav.open{display:block}
+.mobile-nav a{display:block;padding:.7rem 0;border-bottom:1px solid var(--gray-border);font-family:var(--font-head);font-weight:600;font-size:1rem;color:var(--text)}
+.mobile-nav a:hover{color:var(--orange)}
+.mobile-group{margin-bottom:.25rem}
+.mobile-group-title{font-family:var(--font-head);font-size:.72rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);padding:.9rem 0 .25rem;display:block}
+@media(max-width:900px){.nav-links{display:none}.hamburger{display:flex}}
+
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","speakable":{"@type":"SpeakableSpecification","cssSelector":["h1","h2",".callout",".stat-badge","details[open] p"]},"url":"https://ocoeeconcrete.com/blog/pool-deck-pavers-florida/"}</script>
 </head>
