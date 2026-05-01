@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Core pages -->
   <url><loc>https://ocoeeconcrete.com/</loc><lastmod>2026-04-30</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/ocoee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/winter-garden/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/kissimmee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/windermere/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/apopka/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/clermont/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocoeeconcrete.com/pavers/davenport/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocoeeconcrete.com/concrete/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://ocoeeconcrete.com/concrete/ocoee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://ocoeeconcrete.com/contact/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://ocoeeconcrete.com/about/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://ocoeeconcrete.com/contact/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocoeeconcrete.com/blog/</loc><lastmod>2026-04-30</lastmod><changefreq>weekly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://ocoeeconcrete.com/blog/cost-pavers-ocoee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ocoeeconcrete.com/blog/best-pavers-central-florida/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
-  <url><loc>https://ocoeeconcrete.com/blog/concrete-vs-pavers-driveway/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <!-- Paver service pages -->
+  <url><loc>https://ocoeeconcrete.com/pavers/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/pool-decks/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/travertine/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/sealing/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/repair/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <!-- Paver city pages -->
+  <url><loc>https://ocoeeconcrete.com/pavers/ocoee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.92</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/winter-garden/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/orlando/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.88</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/kissimmee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/windermere/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.83</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/apopka/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/clermont/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://ocoeeconcrete.com/pavers/davenport/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <!-- Concrete pages -->
+  <url><loc>https://ocoeeconcrete.com/concrete/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.92</priority></url>
+  <url><loc>https://ocoeeconcrete.com/concrete/stamped/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
+  <url><loc>https://ocoeeconcrete.com/concrete/ocoee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <!-- Epoxy -->
+  <url><loc>https://ocoeeconcrete.com/epoxy-floors/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.87</priority></url>
+  <!-- Blog -->
+  <url><loc>https://ocoeeconcrete.com/blog/</loc><lastmod>2026-04-30</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ocoeeconcrete.com/blog/cost-pavers-ocoee/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://ocoeeconcrete.com/blog/paver-cost-winter-garden/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://ocoeeconcrete.com/blog/pool-deck-pavers-florida/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.82</priority></url>
+  <url><loc>https://ocoeeconcrete.com/blog/best-pavers-central-florida/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ocoeeconcrete.com/blog/concrete-vs-pavers-driveway/</loc><lastmod>2026-04-30</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

@@ -38,3 +38,13 @@
 /index.html                 /                           301
 /pavers/index.html          /pavers/                    301
 /concrete/index.html        /concrete/                  301
+/epoxy /epoxy-floors/ 301
+/epoxy-floor /epoxy-floors/ 301
+/pool-deck /pavers/pool-decks/ 301
+/pool-decks /pavers/pool-decks/ 301
+/sealing /pavers/sealing/ 301
+/repair /pavers/repair/ 301
+/travertine /pavers/travertine/ 301
+/stamped-concrete /concrete/stamped/ 301
+/stamped /concrete/stamped/ 301
+/pavers/orlando /pavers/orlando/ 301
