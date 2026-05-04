@@ -1,59 +1,75 @@
-# ── OLD SITE PAGES → NEW SITE (301 permanent) ──────────────────────────────
-/services/stamped-concrete  /concrete/                  301
-/services/stamped-concrete/ /concrete/                  301
-/services/                  /pavers/                    301
-/services                   /pavers/                    301
-/concrete/patios            /concrete/                  301
-/concrete/patios/           /concrete/                  301
-/epoxy/                     /concrete/                  301
-/epoxy                      /concrete/                  301
-/gallery/                   /about/                     301
-/gallery                    /about/                     301
-/areas/                     /pavers/                    301
-/areas                      /pavers/                    301
-/free-estimate              /contact/                   301
-/free-estimate/             /contact/                   301
-/estimate/                  /contact/                   301
-/estimate                   /contact/                   301
-/quote/                     /contact/                   301
-/quote                      /contact/                   301
-/get-a-quote/               /contact/                   301
-/get-a-quote                /contact/                   301
+# ══════════════════════════════════════════════════════════
+# Ocoee Concrete & Pavers — Cloudflare Pages Redirects
+# ══════════════════════════════════════════════════════════
 
-# ── COMMON SHORTCUTS ───────────────────────────────────────────────────────
-/home                       /                           301
-/index                      /                           301
-/index.html                 /                           301
-/pavers/index.html          /pavers/                    301
-/concrete/index.html        /concrete/                  301
-/epoxy /epoxy-floors/ 301
-/epoxy-floor /epoxy-floors/ 301
-/pool-deck /pavers/pool-decks/ 301
-/pool-decks /pavers/pool-decks/ 301
-/sealing /pavers/sealing/ 301
-/repair /pavers/repair/ 301
-/travertine /pavers/travertine/ 301
-/stamped-concrete /concrete/stamped/ 301
-/stamped /concrete/stamped/ 301
-/pavers/orlando /pavers/orlando/ 301
+# ── Trailing slash normalization (no-slash → with-slash) ──
+/pavers /pavers/ 301
+/concrete /concrete/ 301
+/blog /blog/ 301
+/about /about/ 301
+/contact /contact/ 301
+/faq /faq/ 301
+/faqs /faq/ 301
+/questions /faq/ 301
+/reviews /reviews/ 301
+/testimonials /reviews/ 301
+/google-reviews /reviews/ 301
+/epoxy-floors /epoxy-floors/ 301
+
+# ── Paver service pages ──
 /pavers/driveways /pavers/driveways/ 301
 /pavers/patios /pavers/patios/ 301
 /pavers/walkways /pavers/walkways/ 301
-/concrete/winter-garden /concrete/winter-garden/ 301
-/concrete/kissimmee /concrete/kissimmee/ 301
-/concrete/orlando /concrete/orlando/ 301
+/pavers/pool-decks /pavers/pool-decks/ 301
+/pavers/travertine /pavers/travertine/ 301
+/pavers/sealing /pavers/sealing/ 301
+/pavers/repair /pavers/repair/ 301
+
+# ── Paver city pages ──
+/pavers/ocoee /pavers/ocoee/ 301
+/pavers/winter-garden /pavers/winter-garden/ 301
+/pavers/orlando /pavers/orlando/ 301
+/pavers/kissimmee /pavers/kissimmee/ 301
+/pavers/windermere /pavers/windermere/ 301
+/pavers/apopka /pavers/apopka/ 301
+/pavers/clermont /pavers/clermont/ 301
+/pavers/davenport /pavers/davenport/ 301
 /pavers/lake-nona /pavers/lake-nona/ 301
 /pavers/dr-phillips /pavers/dr-phillips/ 301
 /pavers/four-corners /pavers/four-corners/ 301
 /pavers/celebration /pavers/celebration/ 301
-/faq /faq/ 301
-/faqs /faq/ 301
-/questions /faq/ 301
-/areas /pavers/ 301
+
+# ── Concrete pages ──
+/concrete/stamped /concrete/stamped/ 301
+/concrete/ocoee /concrete/ocoee/ 301
+/concrete/winter-garden /concrete/winter-garden/ 301
+/concrete/kissimmee /concrete/kissimmee/ 301
+/concrete/orlando /concrete/orlando/ 301
+
+# ── Blog posts ──
+/blog/cost-pavers-ocoee /blog/cost-pavers-ocoee/ 301
+/blog/paver-cost-winter-garden /blog/paver-cost-winter-garden/ 301
+/blog/paver-cost-kissimmee /blog/paver-cost-kissimmee/ 301
 /blog/paver-cost-apopka /blog/paver-cost-apopka/ 301
+/blog/pool-deck-pavers-florida /blog/pool-deck-pavers-florida/ 301
+/blog/best-pavers-central-florida /blog/best-pavers-central-florida/ 301
+/blog/concrete-vs-pavers-driveway /blog/concrete-vs-pavers-driveway/ 301
+/blog/travertine-vs-concrete /blog/travertine-vs-concrete/ 301
+/blog/paver-sealing-guide /blog/paver-sealing-guide/ 301
 /blog/stamped-concrete-guide /blog/stamped-concrete-guide/ 301
 /blog/epoxy-floor-guide /blog/epoxy-floor-guide/ 301
-/reviews /reviews/ 301
-/testimonials /reviews/ 301
-/google-reviews /reviews/ 301
+
+# ── Friendly short URLs ──
+/driveways /pavers/driveways/ 301
+/patios /pavers/patios/ 301
+/walkways /pavers/walkways/ 301
+/pool-deck /pavers/pool-decks/ 301
+/pool-decks /pavers/pool-decks/ 301
+/travertine /pavers/travertine/ 301
+/sealing /pavers/sealing/ 301
+/repair /pavers/repair/ 301
+/epoxy /epoxy-floors/ 301
+/stamped /concrete/stamped/ 301
+/services /pavers/ 301
+/areas /pavers/ 301
 /privacy /privacy-policy/ 301
