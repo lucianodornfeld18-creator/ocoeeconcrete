@@ -1,26 +1,14 @@
 # ── OLD SITE PAGES → NEW SITE (301 permanent) ──────────────────────────────
-/pavers/patios              /pavers/                    301
-/pavers/patios/             /pavers/                    301
-/concrete/driveways         /concrete/                  301
-/concrete/driveways/        /concrete/                  301
 /services/stamped-concrete  /concrete/                  301
 /services/stamped-concrete/ /concrete/                  301
 /services/                  /pavers/                    301
 /services                   /pavers/                    301
-/pavers/pool-decks          /pavers/                    301
-/pavers/pool-decks/         /pavers/                    301
-/pavers/walkways            /pavers/                    301
-/pavers/walkways/           /pavers/                    301
-/pavers/driveways           /pavers/                    301
-/pavers/driveways/          /pavers/                    301
 /concrete/patios            /concrete/                  301
 /concrete/patios/           /concrete/                  301
 /epoxy/                     /concrete/                  301
 /epoxy                      /concrete/                  301
 /gallery/                   /about/                     301
 /gallery                    /about/                     301
-/reviews/                   /about/                     301
-/reviews                    /about/                     301
 /areas/                     /pavers/                    301
 /areas                      /pavers/                    301
 /free-estimate              /contact/                   301
