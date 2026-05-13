@@ -30,6 +30,58 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-VQXSQB8NTB');
+
+// Conversion event tracking — fires on key user actions
+document.addEventListener('DOMContentLoaded', function() {
+  // Phone number clicks
+  document.querySelectorAll('a[href^="tel:"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'phone_click', {
+        'event_category': 'engagement',
+        'event_label': a.href.replace('tel:', ''),
+        'page_path': location.pathname
+      });
+    });
+  });
+  // WhatsApp clicks
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'whatsapp_click', {
+        'event_category': 'engagement',
+        'event_label': 'whatsapp',
+        'page_path': location.pathname
+      });
+    });
+  });
+  // Email clicks
+  document.querySelectorAll('a[href^="mailto:"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'email_click', {
+        'event_category': 'engagement',
+        'event_label': a.href.replace('mailto:', ''),
+        'page_path': location.pathname
+      });
+    });
+  });
+  // Thumbtack profile clicks
+  document.querySelectorAll('a[href*="thumbtack.com"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'thumbtack_click', {
+        'event_category': 'engagement',
+        'event_label': 'thumbtack_profile'
+      });
+    });
+  });
+  // Google Business Profile clicks
+  document.querySelectorAll('a[href*="g.page"], a[href*="google.com/maps"], a[href*="goo.gl/maps"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'gbp_click', {
+        'event_category': 'engagement',
+        'event_label': 'google_business'
+      });
+    });
+  });
+});
 </script>
 <style>
 :root{--orange:#D05A1E;--orange-dark:#B04A10;--orange-light:#FFF3ED;--orange-mid:#F97316;--text:#1C1917;--gray:#6B7280;--gray-light:#F9FAFB;--gray-border:#E5E7EB;--white:#fff;--radius:12px;--shadow:0 1px 3px rgba(0,0,0,.1);--shadow-lg:0 10px 30px rgba(0,0,0,.12);--font-head:'Outfit',sans-serif;--font-body:'Lato',sans-serif}
@@ -434,9 +486,20 @@ document.getElementById('contact-form').addEventListener('submit', async functio
     });
     if (resp.ok) {
       successMsg.style.display = 'block';
+      // GA4 conversion event
+      if (typeof gtag === 'function') {
+        gtag('event', 'form_submit_success', {
+          'event_category': 'conversion',
+          'event_label': data.service || 'contact_form',
+          'city': data.city || 'unknown'
+        });
+      }
       this.reset();
     } else {
       errorMsg.style.display = 'block';
+      if (typeof gtag === 'function') {
+        gtag('event', 'form_submit_error', {'event_category': 'conversion'});
+      }
     }
   } catch (err) {
     errorMsg.style.display = 'block';

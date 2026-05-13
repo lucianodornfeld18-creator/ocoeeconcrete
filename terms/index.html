@@ -21,6 +21,35 @@ window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-VQXSQB8NTB');
+
+// Conversion event tracking — fires on key user actions
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('a[href^="tel:"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'phone_click', {'event_category':'engagement','event_label':a.href.replace('tel:',''),'page_path':location.pathname});
+    });
+  });
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'whatsapp_click', {'event_category':'engagement','event_label':'whatsapp','page_path':location.pathname});
+    });
+  });
+  document.querySelectorAll('a[href^="mailto:"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'email_click', {'event_category':'engagement','event_label':a.href.replace('mailto:',''),'page_path':location.pathname});
+    });
+  });
+  document.querySelectorAll('a[href*="thumbtack.com"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'thumbtack_click', {'event_category':'engagement','event_label':'thumbtack_profile'});
+    });
+  });
+  document.querySelectorAll('a[href*="g.page"], a[href*="google.com/maps"], a[href*="goo.gl/maps"]').forEach(function(a) {
+    a.addEventListener('click', function() {
+      gtag('event', 'gbp_click', {'event_category':'engagement','event_label':'google_business'});
+    });
+  });
+});
 </script>
 </head>
 <body>
