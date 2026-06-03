@@ -19,12 +19,6 @@
     <priority>0.95</priority>
   </url>
   <url>
-    <loc>https://ocoeeconcrete.com/stucco/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.95</priority>
-  </url>
-  <url>
     <loc>https://ocoeeconcrete.com/epoxy-floors/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -157,31 +151,7 @@
     <priority>0.85</priority>
   </url>
   <url>
-    <loc>https://ocoeeconcrete.com/stucco/installation/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ocoeeconcrete.com/stucco/repair/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
     <loc>https://ocoeeconcrete.com/sidewalks/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ocoeeconcrete.com/retaining-walls/</loc>
-    <lastmod>2026-05-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.85</priority>
-  </url>
-  <url>
-    <loc>https://ocoeeconcrete.com/foundation-installation/</loc>
     <lastmod>2026-05-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
