@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
       gtag('event', 'thumbtack_click', {'event_category':'engagement','event_label':'thumbtack_profile'});
     });
   });
-  document.querySelectorAll('a[href*="g.page"], a[href*="google.com/maps"], a[href*="goo.gl/maps"]').forEach(function(a) {
+  document.querySelectorAll('a[href*="g.page"], a[href*="google.com/maps"], a[href*="goo.gl/maps"], a[href*="maps.app.goo.gl"]').forEach(function(a) {
     a.addEventListener('click', function() {
       gtag('event', 'gbp_click', {'event_category':'engagement','event_label':'google_business'});
     });
