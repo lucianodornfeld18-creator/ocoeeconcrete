@@ -29,11 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
       gtag('event', 'phone_click', {'event_category':'engagement','event_label':a.href.replace('tel:',''),'page_path':location.pathname});
     });
   });
-  document.querySelectorAll('a[href*="wa.me"]').forEach(function(a) {
-    a.addEventListener('click', function() {
-      gtag('event', 'whatsapp_click', {'event_category':'engagement','event_label':'whatsapp','page_path':location.pathname});
-    });
-  });
   document.querySelectorAll('a[href^="mailto:"]').forEach(function(a) {
     a.addEventListener('click', function() {
       gtag('event', 'email_click', {'event_category':'engagement','event_label':a.href.replace('mailto:',''),'page_path':location.pathname});
@@ -72,6 +67,6 @@ document.addEventListener('DOMContentLoaded', function() {
 <h2>Website Terms</h2>
 <p>The content on ocoeeconcrete.com is provided for informational purposes. Pricing ranges are estimates and vary by project. Always request a free on-site estimate for accurate pricing specific to your property.</p>
 <h2>Contact</h2>
-<p>Questions about these terms: <a href="tel:6892435726">(689) 243-5726</a> or through our <a href="/contact/">contact form</a>.</p>
+<p>Questions about these terms: <a href="tel:6893566292">(689) 356-6292</a> or through our <a href="/contact/">contact form</a>.</p>
 </body>
 </html>

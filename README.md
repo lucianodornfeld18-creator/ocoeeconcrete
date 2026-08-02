@@ -1,7 +1,7 @@
 # Ocoee Concrete & Pavers — Website
 
 **Site:** https://ocoeeconcrete.com  
-**Telefone:** (689) 243-5726  
+**Telefone:** (689) 356-6292  
 **Stack:** HTML estático · Cloudflare Pages (deploy automático via GitHub)
 
 ---
@@ -121,5 +121,4 @@ ocoeeconcrete/
 
 ## 📞 Contato / Suporte
 
-**WhatsApp:** +1 (689) 243-5726  
 **Site:** https://ocoeeconcrete.com
